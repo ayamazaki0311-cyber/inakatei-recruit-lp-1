@@ -7,7 +7,6 @@ export function Features() {
       id="features"
       eyebrow="働くメリット"
       title="週1日から、地元で働きやすい条件です"
-      description="アルバイトを探す方が気になる条件を、わかりやすく整理しました。"
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (

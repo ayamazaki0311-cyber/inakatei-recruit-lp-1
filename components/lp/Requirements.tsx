@@ -7,7 +7,6 @@ export function Requirements() {
       id="requirements"
       eyebrow="募集要項"
       title="アルバイト募集条件"
-      description="勤務条件や応募方法をまとめています。"
     >
       <div className="overflow-hidden rounded-md border border-[#ead5bb] bg-white shadow-soft">
         {requirements.map((item) => (

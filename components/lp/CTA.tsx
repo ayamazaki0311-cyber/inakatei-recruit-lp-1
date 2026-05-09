@@ -13,6 +13,7 @@ export function CTA() {
         <div className="mt-6 rounded-md bg-white/10 p-4">
           <p className="text-sm text-[#fff1dc]">電話番号</p>
           <p className="mt-1 text-2xl font-black">{siteInfo.phoneDisplay}</p>
+          <p className="mt-2 text-sm text-[#fff1dc]">電話受付時間：{siteInfo.phoneReceptionTime}</p>
         </div>
         <div className="mt-6">
           <PhoneButtons />
